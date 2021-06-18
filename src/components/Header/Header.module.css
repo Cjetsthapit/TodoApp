@@ -1,0 +1,11 @@
+.header{
+    /* text-align: center; */
+    background-color: rgb(6, 77, 82);
+    color:rgb(98, 142, 181);
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:35px;
+
+}

@@ -1,0 +1,32 @@
+.todo{
+  align-items: center;
+  border: 1px solid #f00;
+  background: rgb(28, 158, 167);
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(90, 89, 89, 0.15);
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 8px 15px;
+  height:auto;
+  text-align: justify;
+}
+.todo button{
+  border:none;
+  background-color: rgb(28, 158, 167);
+  font-size:20px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 5px;
+  margin-right:10px;
+  margin-left:0px;
+}

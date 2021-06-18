@@ -1,0 +1,16 @@
+.display{
+    font-weight:500;
+    width:96%;
+    margin:10px auto;
+    font-size: 20px;
+
+}
+@media (min-width:700px){
+    .display{
+        font-weight:500;
+        width:600px;
+        margin:30px auto;
+        font-size: 25px;
+    
+    }
+}
