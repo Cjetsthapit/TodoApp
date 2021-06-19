@@ -1,15 +1,13 @@
-.inputform {
+/* .inputform {
     width:100%;
     display:flex;
     justify-content: center;
 }
 .inputform form{
     width:100%;
-}
+} */
 .inputform form input{
-    width:98%;
-    margin:10px auto;
-    padding:3px 5px;
+    width:100%;
     font-size:20px;
     outline:none;
 }

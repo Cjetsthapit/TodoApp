@@ -1,11 +1,14 @@
-.header{
-    /* text-align: center; */
-    background-color: rgb(6, 77, 82);
-    color:rgb(98, 142, 181);
-    height:70px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size:35px;
 
+
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px 60px;
+    color:rgb(98, 142, 181);
 }
+.navbar a:hover,
+.navbar a:active,
+.navbar a.active{
+    color:rgb(255, 255, 255);
+    background-color: rgb(41, 37, 37);
+} 

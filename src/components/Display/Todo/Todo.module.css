@@ -1,7 +1,8 @@
 .todo{
   align-items: center;
-  border: 1px solid #f00;
-  background: rgb(28, 158, 167);
+  border: 1px solid rgb(22, 20, 20);
+  background: rgb(52,58,64);
+  color:rgb(180, 240, 250);
   border-radius: 3px;
   box-shadow: 1px 1px 1px rgba(90, 89, 89, 0.15);
   display: flex;
@@ -13,9 +14,15 @@
   text-align: justify;
 }
 .todo button{
-  border:none;
-  background-color: rgb(28, 158, 167);
+  outline:none;
   font-size:20px;
+  background: rgb(52,58,64);
+  border:none;
+  color:rgb(177, 172, 172);
+
+}
+.todo button:hover{
+  transform: scale(1.2);
 }
 
 input[type=checkbox]

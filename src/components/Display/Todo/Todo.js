@@ -5,7 +5,8 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 const Todo=({task,removeTask, index,toggleTask})=>(
     <div className={styles.todo} style={{textDecoration: task.isCompleted ? "line-through" : "",
-        color:task.isCompleted ? "red" : ""
+        color:task.isCompleted ? "rgb(177, 172, 172)"
+        : ""
     }}>
          
         

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import styles from './Display.module.css';
 import Todo from './Todo/Todo';
 import InputForm from './InputForm/InputForm';
+import Tracker from './Tracker'
 const Display=(props)=>{
     const [tasks, setTasks] = useState([
         { text: "Hello World", isCompleted: false },
@@ -24,9 +25,12 @@ const Display=(props)=>{
       };
     return(
         <div className={styles.display}>
+            
             <InputForm addTask={addTask}/>
+            <Tracker  totalTasks={tasks.length}
+        doneTasks={tasks.filter((task) => task.isCompleted).length}/> 
             {
-                tasks.reverse().map((task,index)=>(
+                tasks.map((task,index)=>(
                     <Todo
                     key={index}
                     index={index}
@@ -36,6 +40,7 @@ const Display=(props)=>{
                     />
                 ))
             }
+            
         </div>
     );
 }

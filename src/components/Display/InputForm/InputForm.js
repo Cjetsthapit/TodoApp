@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 import styles from './InputForm.module.css';
-
+import {Form } from 'react-bootstrap';
 const InputForm=({addTask})=>{
     const [value, setValue]=useState("");
     const handleSubmit = (e)=>{
@@ -13,8 +13,10 @@ const InputForm=({addTask})=>{
     
     return(
     <div className={styles.inputform}>
-        <form onSubmit={handleSubmit}>
-        <input value={value} onChange={(e)=> setValue(e.target.value)} />
+        <form onSubmit={handleSubmit} className={styles.input}>
+        <Form.Control size="lg" type="text" value={value} onChange={(e)=> setValue(e.target.value)}   />
+  <br />
+    
         </form>
     </div>
     )
