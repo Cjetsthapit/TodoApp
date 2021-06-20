@@ -13,12 +13,12 @@ const Header=(props)=>(
         <Navbar.Collapse id="basic-navbar-nav" className={styles.navbar}>
             <Nav className="ml-auto">
             <Nav.Link >
-                <NavLink to="/" exact activeClassName={styles.active}>
+                <NavLink to="/TodoApp" exact activeClassName={styles.active}>
                 Todo
                 </NavLink>
             </Nav.Link>
             <Nav.Link>
-                <NavLink to="/tictac" activeClassName={styles.active}>
+                <NavLink to="/TodoApp/tictac" activeClassName={styles.active}>
                     TicTac
                 </NavLink>
             </Nav.Link>
